@@ -8,5 +8,5 @@ docker container run \
   --env DOCKER_TLS_CERTDIR=/certs \
   --volume jenkins-docker-certs:/certs/client \
   --volume jenkins-data:/var/jenkins_home \
-  --publish 2375:2376 \
+  --publish 2376:2376 \
   docker:dind
